@@ -1,0 +1,25 @@
+soc-automation-homelab/
+│
+├── README.md                  # Overview (this file)
+├── setup/
+│   ├── prerequisites.md
+│   ├── wazuh_setup.md
+│   ├── shuffle_setup.md
+│   ├── virustotal_integration.md
+│   ├── thehive_setup.md
+│   ├── nginx_https_setup.md
+│   └── troubleshooting.md
+│
+├── workflows/
+│   ├── wazuh_alerts_to_shuffle.json
+│   ├── shuffle_to_virustotal.json
+│   └── shuffle_to_thehive.json
+│
+├── images/
+│   ├── architecture.png
+│   └── workflow_example.png
+│
+└── docs/
+    ├── soc_diagram.md
+    ├── lessons_learned.md
+    └── references.md
